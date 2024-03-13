@@ -1,0 +1,47 @@
+ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.header,
+.footer {
+    background-color: black;
+}
+
+.header .container,
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.raw {
+    display: flex;
+    gap: 30px;
+}
+
+.article{
+    width: 33%;
+    text-align: center;
+}
+
+.footer{
+    margin-top: 50px;
+}
+
+h1{
+    text-align: center;
+}
